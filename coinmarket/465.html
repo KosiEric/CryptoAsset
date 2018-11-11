@@ -1,0 +1,909 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from phpcryptomarket.bdtask.com/demo-v1.6/coinmarket/465 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Oct 2018 02:32:40 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Coinmarket - Crypto Currency Treading System</title>
+        <link rel="shortcut icon" href="../upload/settings/35f7d3bce41674cd7c787b978eebfb15.png">
+        <!-- style css -->
+        <link href="../assets/website/css/style.css" rel="stylesheet">
+        <!-- Chart -->
+        <link href="../assets/website/amcharts/export.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="loader-wrapper">
+            <div id="loader"></div>
+            <div class="loader-section section-left"></div>
+            <div class="loader-section section-right"></div>
+        </div>
+        <!-- /.End of loader wrapper-->
+        <nav class="navbar navbar-default navbar-fixed navbar-transparent bootsnav">
+            <!-- Start Top Search -->
+            <div class="top-search">
+                <div class="container">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                        <input type="text" class="form-control" placeholder="Search">
+                        <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+                    </div>
+                </div>
+            </div>
+            <!-- End Top Search -->
+            <div class="container">            
+                <!-- Start Atribute Navigation -->
+                <div class="attr-nav">
+                    <ul>
+                                                <li><a href="../register.php#tab2" class="btn nav-btn">Log In</a></li>
+                        <li><a href="../register.php#tab1" class="btn nav-btn btn-orange">Sign Up</a></li>
+                        
+                    </ul>
+                </div>
+                <!-- End Atribute Navigation -->
+                <!-- Start Header Navigation -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <a class="navbar-brand" href="../index.php"><img src="../upload/settings/b3fe68eb87b068c7861d772a7e1bf8ec.png" class="logo" alt="Crypto Currency Treading System"></a>
+                </div>
+                <!-- End Header Navigation -->
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <ul class="nav navbar-nav" data-in="" data-out="">
+
+
+
+                                <li class=""><a href="../home.php">Home</a>
+                                </li>
+
+                                                        <li class="active "><a href="../coinmarket.php">Coinmarket</a>
+                                </li>
+
+                                                        <li class=""><a href="../pricing.php">Pricing</a>
+                                </li>
+
+                                                        <li class=""><a href="../exchange.php">Exchange</a>
+                                </li>
+
+                                                        <li class=""><a href="../buy.html">Buy</a>
+                                </li>
+
+                                                        <li class=""><a href="../sell.php">Sells</a>
+                                </li>
+
+                                                        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">More</a>
+
+                                    <ul class="dropdown-menu">
+                                        <li class=""><a href="../about.html">About</a></li>
+                                        <li class=""><a href="../news.php">News</a></li>
+                                        <li class=""><a href="../faq.php">F.A.Q</a></li>
+                                        <li class=""><a href="../service.php">Service</a></li>
+                                        <li class=""><a href="../contact.php">Contact</a></li>
+                                    </ul> 
+                                </li>
+
+                                                
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div>    
+        </nav>        <div class="page_header" data-parallax-bg-image="http://phpcryptomarket.bdtask.com/demo-v1.6/upload/61f2731418cee75eecde8fd5cadb2663.jpg" data-parallax-direction="">
+            <div class="header-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-8 col-sm-offset-2">
+                            <div class="haeder-text">
+                                <h1>Bitcoin Currency Prices</h1>
+                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  /.End of page header -->
+        <div class="currency-table">
+            <div class="with-nav-tabs currency-tabs">
+                
+                                    <div class="widget_banner">
+                                                <a target="_blank" href="https://www.bdtask.com/"><img src="../upload/advertisement/515c86dd13ace9254f792fadc1efd026.png" class="img-responsive center-block" alt="coinmarket-top"></a>
+                                            </div><!-- /.End of banner -->
+                
+                                
+                <div class="container">
+                    <div class="tab-content">
+
+
+                        <div class="tab-pane fade in active" id="crypto">
+                            <!-- <table id="cryptoTable" class="table table-striped table-hover nowrap" width="100%" cellspacing="0"> -->
+                            <table class="table table-striped table-hover nowrap" width="100%" cellspacing="0">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Ticker</th>
+                                        <th>Price</th>
+                                        <th>24H Volume</th>
+                                        <th>24H change</th>
+                                        <th>Graph 24H</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+
+                                                                        <tr data-href="http://phpcryptomarket.bdtask.com/demo-v1.6/coin-details/13074" id="BGCOLOR_CLV">
+                                        <td>
+                                            <div class="logo-name">
+                                                <div class="item-logo">
+                                                    <img src="../upload/coinlist/clv.png" class="img-responsive" alt="CleverCoin (CLV)">
+                                                </div>
+                                                <span class="item_name_value">CleverCoin</span>
+                                            </div>
+                                        </td>
+                                        <td><span class="value_ticker">CLV</span></td>
+                                        <td>$ <span class="price value_cap" id="PRICE_CLV">0</span></td>
+                                        <td><span class="value_max_quantity" id="VOLUME24HOURTO_CLV"></span></td>
+                                        <td><span id="CHANGE24HOUR_CLV"></span><span id="CHANGE24HOURPCT_CLV"></span></td>
+
+
+                                        <td>
+                                            <span class="bdtasksparkline value_graph" id="GRAPH_CLV"></span>
+                                        </td>
+                                    </tr>
+
+                                                                        <tr data-href="http://phpcryptomarket.bdtask.com/demo-v1.6/coin-details/13280" id="BGCOLOR_FCT">
+                                        <td>
+                                            <div class="logo-name">
+                                                <div class="item-logo">
+                                                    <img src="../upload/coinlist/fct1.png" class="img-responsive" alt="Factoids (FCT)">
+                                                </div>
+                                                <span class="item_name_value">Factoids</span>
+                                            </div>
+                                        </td>
+                                        <td><span class="value_ticker">FCT</span></td>
+                                        <td>$ <span class="price value_cap" id="PRICE_FCT">0</span></td>
+                                        <td><span class="value_max_quantity" id="VOLUME24HOURTO_FCT"></span></td>
+                                        <td><span id="CHANGE24HOUR_FCT"></span><span id="CHANGE24HOURPCT_FCT"></span></td>
+
+
+                                        <td>
+                                            <span class="bdtasksparkline value_graph" id="GRAPH_FCT"></span>
+                                        </td>
+                                    </tr>
+
+                                                                        <tr data-href="http://phpcryptomarket.bdtask.com/demo-v1.6/coin-details/13281" id="BGCOLOR_LYB">
+                                        <td>
+                                            <div class="logo-name">
+                                                <div class="item-logo">
+                                                    <img src="http://phpcryptomarket.bdtask.com/demo-v1.6/upload/coinlist/lyb.png" class="img-responsive" alt="LyraBar (LYB)">
+                                                </div>
+                                                <span class="item_name_value">LyraBar</span>
+                                            </div>
+                                        </td>
+                                        <td><span class="value_ticker">LYB</span></td>
+                                        <td>$ <span class="price value_cap" id="PRICE_LYB">0</span></td>
+                                        <td><span class="value_max_quantity" id="VOLUME24HOURTO_LYB"></span></td>
+                                        <td><span id="CHANGE24HOUR_LYB"></span><span id="CHANGE24HOURPCT_LYB"></span></td>
+
+
+                                        <td>
+                                            <span class="bdtasksparkline value_graph" id="GRAPH_LYB"></span>
+                                        </td>
+                                    </tr>
+
+                                                                        <tr data-href="http://phpcryptomarket.bdtask.com/demo-v1.6/coin-details/15272" id="BGCOLOR_BST">
+                                        <td>
+                                            <div class="logo-name">
+                                                <div class="item-logo">
+                                                    <img src="http://phpcryptomarket.bdtask.com/demo-v1.6/upload/coinlist/bst.png" class="img-responsive" alt="BitStone (BST)">
+                                                </div>
+                                                <span class="item_name_value">BitStone</span>
+                                            </div>
+                                        </td>
+                                        <td><span class="value_ticker">BST</span></td>
+                                        <td>$ <span class="price value_cap" id="PRICE_BST">0</span></td>
+                                        <td><span class="value_max_quantity" id="VOLUME24HOURTO_BST"></span></td>
+                                        <td><span id="CHANGE24HOUR_BST"></span><span id="CHANGE24HOURPCT_BST"></span></td>
+
+
+                                        <td>
+                                            <span class="bdtasksparkline value_graph" id="GRAPH_BST"></span>
+                                        </td>
+                                    </tr>
+
+                                                                        <tr data-href="http://phpcryptomarket.bdtask.com/demo-v1.6/coin-details/15274" id="BGCOLOR_PXI">
+                                        <td>
+                                            <div class="logo-name">
+                                                <div class="item-logo">
+                                                    <img src="http://phpcryptomarket.bdtask.com/demo-v1.6/upload/coinlist/pxi.png" class="img-responsive" alt="Prime-X1 (PXI)">
+                                                </div>
+                                                <span class="item_name_value">Prime-X1</span>
+                                            </div>
+                                        </td>
+                                        <td><span class="value_ticker">PXI</span></td>
+                                        <td>$ <span class="price value_cap" id="PRICE_PXI">0</span></td>
+                                        <td><span class="value_max_quantity" id="VOLUME24HOURTO_PXI"></span></td>
+                                        <td><span id="CHANGE24HOUR_PXI"></span><span id="CHANGE24HOURPCT_PXI"></span></td>
+
+
+                                        <td>
+                                            <span class="bdtasksparkline value_graph" id="GRAPH_PXI"></span>
+                                        </td>
+                                    </tr>
+
+                                                                        <tr data-href="http://phpcryptomarket.bdtask.com/demo-v1.6/coin-details/15282" id="BGCOLOR_CPC">
+                                        <td>
+                                            <div class="logo-name">
+                                                <div class="item-logo">
+                                                    <img src="http://phpcryptomarket.bdtask.com/demo-v1.6/upload/coinlist/cpc.png" class="img-responsive" alt="CapriCoin (CPC)">
+                                                </div>
+                                                <span class="item_name_value">CapriCoin</span>
+                                            </div>
+                                        </td>
+                                        <td><span class="value_ticker">CPC</span></td>
+                                        <td>$ <span class="price value_cap" id="PRICE_CPC">0</span></td>
+                                        <td><span class="value_max_quantity" id="VOLUME24HOURTO_CPC"></span></td>
+                                        <td><span id="CHANGE24HOUR_CPC"></span><span id="CHANGE24HOURPCT_CPC"></span></td>
+
+
+                                        <td>
+                                            <span class="bdtasksparkline value_graph" id="GRAPH_CPC"></span>
+                                        </td>
+                                    </tr>
+
+                                                                        <tr data-href="http://phpcryptomarket.bdtask.com/demo-v1.6/coin-details/15284" id="BGCOLOR_AMS">
+                                        <td>
+                                            <div class="logo-name">
+                                                <div class="item-logo">
+                                                    <img src="http://phpcryptomarket.bdtask.com/demo-v1.6/upload/coinlist/ams.png" class="img-responsive" alt="Amsterdam Coin (AMS)">
+                                                </div>
+                                                <span class="item_name_value">Amsterdam Coin</span>
+                                            </div>
+                                        </td>
+                                        <td><span class="value_ticker">AMS</span></td>
+                                        <td>$ <span class="price value_cap" id="PRICE_AMS">0</span></td>
+                                        <td><span class="value_max_quantity" id="VOLUME24HOURTO_AMS"></span></td>
+                                        <td><span id="CHANGE24HOUR_AMS"></span><span id="CHANGE24HOURPCT_AMS"></span></td>
+
+
+                                        <td>
+                                            <span class="bdtasksparkline value_graph" id="GRAPH_AMS"></span>
+                                        </td>
+                                    </tr>
+
+                                                                        <tr data-href="http://phpcryptomarket.bdtask.com/demo-v1.6/coin-details/15323" id="BGCOLOR_OBITS">
+                                        <td>
+                                            <div class="logo-name">
+                                                <div class="item-logo">
+                                                    <img src="http://phpcryptomarket.bdtask.com/demo-v1.6/upload/coinlist/obits.png" class="img-responsive" alt="Obits Coin (OBITS)">
+                                                </div>
+                                                <span class="item_name_value">Obits Coin</span>
+                                            </div>
+                                        </td>
+                                        <td><span class="value_ticker">OBITS</span></td>
+                                        <td>$ <span class="price value_cap" id="PRICE_OBITS">0</span></td>
+                                        <td><span class="value_max_quantity" id="VOLUME24HOURTO_OBITS"></span></td>
+                                        <td><span id="CHANGE24HOUR_OBITS"></span><span id="CHANGE24HOURPCT_OBITS"></span></td>
+
+
+                                        <td>
+                                            <span class="bdtasksparkline value_graph" id="GRAPH_OBITS"></span>
+                                        </td>
+                                    </tr>
+
+                                                                        <tr data-href="http://phpcryptomarket.bdtask.com/demo-v1.6/coin-details/15869" id="BGCOLOR_CLUB">
+                                        <td>
+                                            <div class="logo-name">
+                                                <div class="item-logo">
+                                                    <img src="http://phpcryptomarket.bdtask.com/demo-v1.6/upload/coinlist/club.png" class="img-responsive" alt=" ClubCoin (CLUB)">
+                                                </div>
+                                                <span class="item_name_value"> ClubCoin</span>
+                                            </div>
+                                        </td>
+                                        <td><span class="value_ticker">CLUB</span></td>
+                                        <td>$ <span class="price value_cap" id="PRICE_CLUB">0</span></td>
+                                        <td><span class="value_max_quantity" id="VOLUME24HOURTO_CLUB"></span></td>
+                                        <td><span id="CHANGE24HOUR_CLUB"></span><span id="CHANGE24HOURPCT_CLUB"></span></td>
+
+
+                                        <td>
+                                            <span class="bdtasksparkline value_graph" id="GRAPH_CLUB"></span>
+                                        </td>
+                                    </tr>
+
+                                                                        <tr data-href="http://phpcryptomarket.bdtask.com/demo-v1.6/coin-details/15870" id="BGCOLOR_RADS">
+                                        <td>
+                                            <div class="logo-name">
+                                                <div class="item-logo">
+                                                    <img src="http://phpcryptomarket.bdtask.com/demo-v1.6/upload/coinlist/rads.png" class="img-responsive" alt="Radium (RADS)">
+                                                </div>
+                                                <span class="item_name_value">Radium</span>
+                                            </div>
+                                        </td>
+                                        <td><span class="value_ticker">RADS</span></td>
+                                        <td>$ <span class="price value_cap" id="PRICE_RADS">0</span></td>
+                                        <td><span class="value_max_quantity" id="VOLUME24HOURTO_RADS"></span></td>
+                                        <td><span id="CHANGE24HOUR_RADS"></span><span id="CHANGE24HOURPCT_RADS"></span></td>
+
+
+                                        <td>
+                                            <span class="bdtasksparkline value_graph" id="GRAPH_RADS"></span>
+                                        </td>
+                                    </tr>
+
+                                                                        <tr data-href="http://phpcryptomarket.bdtask.com/demo-v1.6/coin-details/15876" id="BGCOLOR_EMC">
+                                        <td>
+                                            <div class="logo-name">
+                                                <div class="item-logo">
+                                                    <img src="http://phpcryptomarket.bdtask.com/demo-v1.6/upload/coinlist/emc.png" class="img-responsive" alt="Emercoin (EMC)">
+                                                </div>
+                                                <span class="item_name_value">Emercoin</span>
+                                            </div>
+                                        </td>
+                                        <td><span class="value_ticker">EMC</span></td>
+                                        <td>$ <span class="price value_cap" id="PRICE_EMC">0</span></td>
+                                        <td><span class="value_max_quantity" id="VOLUME24HOURTO_EMC"></span></td>
+                                        <td><span id="CHANGE24HOUR_EMC"></span><span id="CHANGE24HOURPCT_EMC"></span></td>
+
+
+                                        <td>
+                                            <span class="bdtasksparkline value_graph" id="GRAPH_EMC"></span>
+                                        </td>
+                                    </tr>
+
+                                                                        <tr data-href="http://phpcryptomarket.bdtask.com/demo-v1.6/coin-details/15879" id="BGCOLOR_BLITZ">
+                                        <td>
+                                            <div class="logo-name">
+                                                <div class="item-logo">
+                                                    <img src="http://phpcryptomarket.bdtask.com/demo-v1.6/upload/coinlist/blitz.png" class="img-responsive" alt="BlitzCoin (BLITZ)">
+                                                </div>
+                                                <span class="item_name_value">BlitzCoin</span>
+                                            </div>
+                                        </td>
+                                        <td><span class="value_ticker">BLITZ</span></td>
+                                        <td>$ <span class="price value_cap" id="PRICE_BLITZ">0</span></td>
+                                        <td><span class="value_max_quantity" id="VOLUME24HOURTO_BLITZ"></span></td>
+                                        <td><span id="CHANGE24HOUR_BLITZ"></span><span id="CHANGE24HOURPCT_BLITZ"></span></td>
+
+
+                                        <td>
+                                            <span class="bdtasksparkline value_graph" id="GRAPH_BLITZ"></span>
+                                        </td>
+                                    </tr>
+
+                                                                        <tr data-href="http://phpcryptomarket.bdtask.com/demo-v1.6/coin-details/15882" id="BGCOLOR_HIRE*">
+                                        <td>
+                                            <div class="logo-name">
+                                                <div class="item-logo">
+                                                    <img src="http://phpcryptomarket.bdtask.com/demo-v1.6/upload/coinlist/hire.png" class="img-responsive" alt="BitHIRE (HIRE*)">
+                                                </div>
+                                                <span class="item_name_value">BitHIRE</span>
+                                            </div>
+                                        </td>
+                                        <td><span class="value_ticker">HIRE*</span></td>
+                                        <td>$ <span class="price value_cap" id="PRICE_HIRE*">0</span></td>
+                                        <td><span class="value_max_quantity" id="VOLUME24HOURTO_HIRE*"></span></td>
+                                        <td><span id="CHANGE24HOUR_HIRE*"></span><span id="CHANGE24HOURPCT_HIRE*"></span></td>
+
+
+                                        <td>
+                                            <span class="bdtasksparkline value_graph" id="GRAPH_HIRE*"></span>
+                                        </td>
+                                    </tr>
+
+                                                                        <tr data-href="http://phpcryptomarket.bdtask.com/demo-v1.6/coin-details/15885" id="BGCOLOR_EGC">
+                                        <td>
+                                            <div class="logo-name">
+                                                <div class="item-logo">
+                                                    <img src="http://phpcryptomarket.bdtask.com/demo-v1.6/upload/coinlist/egc.png" class="img-responsive" alt="EverGreenCoin (EGC)">
+                                                </div>
+                                                <span class="item_name_value">EverGreenCoin</span>
+                                            </div>
+                                        </td>
+                                        <td><span class="value_ticker">EGC</span></td>
+                                        <td>$ <span class="price value_cap" id="PRICE_EGC">0</span></td>
+                                        <td><span class="value_max_quantity" id="VOLUME24HOURTO_EGC"></span></td>
+                                        <td><span id="CHANGE24HOUR_EGC"></span><span id="CHANGE24HOURPCT_EGC"></span></td>
+
+
+                                        <td>
+                                            <span class="bdtasksparkline value_graph" id="GRAPH_EGC"></span>
+                                        </td>
+                                    </tr>
+
+                                                                        <tr data-href="http://phpcryptomarket.bdtask.com/demo-v1.6/coin-details/15888" id="BGCOLOR_MND">
+                                        <td>
+                                            <div class="logo-name">
+                                                <div class="item-logo">
+                                                    <img src="http://phpcryptomarket.bdtask.com/demo-v1.6/upload/coinlist/mnd.png" class="img-responsive" alt="MindCoin (MND)">
+                                                </div>
+                                                <span class="item_name_value">MindCoin</span>
+                                            </div>
+                                        </td>
+                                        <td><span class="value_ticker">MND</span></td>
+                                        <td>$ <span class="price value_cap" id="PRICE_MND">0</span></td>
+                                        <td><span class="value_max_quantity" id="VOLUME24HOURTO_MND"></span></td>
+                                        <td><span id="CHANGE24HOUR_MND"></span><span id="CHANGE24HOURPCT_MND"></span></td>
+
+
+                                        <td>
+                                            <span class="bdtasksparkline value_graph" id="GRAPH_MND"></span>
+                                        </td>
+                                    </tr>
+
+                                                                    </tbody>
+                            </table>
+                            <ul class='pagination col-xs pull-right'><li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/coinmarket/" data-ci-pagination-page="1" rel="start">First</a><li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/coinmarket/450" data-ci-pagination-page="31" rel="prev">Prev</a><li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/coinmarket/435" data-ci-pagination-page="30">30</a></li><li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/coinmarket/450" data-ci-pagination-page="31">31</a></li><li class='disabled'><li class='active'><a href='#'>32<span class='sr-only'></span></a></li><li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/coinmarket/480" data-ci-pagination-page="33">33</a></li><li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/coinmarket/495" data-ci-pagination-page="34">34</a></li><li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/coinmarket/480" data-ci-pagination-page="33" rel="next">Next</a></li><li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/coinmarket/2325" data-ci-pagination-page="156">Last</a></ul>                        </div>
+                    </div>
+                </div>
+                
+                
+                                    <div class="widget_banner">
+                                                <a target="_blank" href="https://www.bdtask.com/"><img src="http://phpcryptomarket.bdtask.com/demo-v1.6/upload/advertisement/515c86dd13ace9254f792fadc1efd026.png" class="img-responsive center-block" alt="coinmarket-bottom"></a>
+                                            </div><!-- /.End of banner -->
+                            </div>
+        </div>
+        <!-- /.End of table content -->
+
+        <footer class="footer">
+            <div class="footer-breadcrumbs">
+                <div class="container">
+                    <div class="breadcrumbs-row">
+                        <ul class="f_breadcrumbs">
+                            <li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/"><span>Home</span></a></li>
+                            <li><a href="#"><span>Coinmarket</span></a></li>
+                        </ul>
+                        <div class="scroll-top" id="back-to-top">
+                            <div class="scroll-top-text"><span>Scroll to Top</span></div>
+                            <div class="scroll-top-icon"><i class="fa fa-angle-up"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.End of breadcrumbs -->
+            <div class="action_btn_inner">
+                <a href="http://phpcryptomarket.bdtask.com/demo-v1.6/register#tab1" class="action_btn">
+                    <span class="action_title">Register</span>
+                    <span class="lnr lnr-chevron-right action_icon"></span>
+                    <span class="action_sub_title">Join the new Yera of cryptocurrency exchange</span>
+                </a>
+                <a href="http://phpcryptomarket.bdtask.com/demo-v1.6/register#tab2" class="action_btn">
+                    <span class="action_title">Sign In</span>
+                    <span class="lnr lnr-chevron-right action_icon"></span>
+                    <span class="action_sub_title">Access the cryptocurrency experience you deserve</span>
+                </a>
+            </div>
+            <!-- /.End of action button -->
+            <div class="main_footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4">
+                            <div class="widget-contact">
+                                <ul class="list-icon">
+                                    <li><i class="fa fa-map-marker"></i> Bangladesh Office <br>98 Green Road, Farmgate, Dhaka- 1215</li>
+                                    <li><i class="fa fa-phone"></i> +88-01817-584639 </li>
+                                    <li><i class="fa fa-envelope"></i> <a href="http://phpcryptomarket.bdtask.com/cdn-cgi/l/email-protection#91f8fff7fed1f3f5e5f0e2fabff2fefc"><span class="__cf_email__" data-cfemail="177e7971785775736376647c3974787a">[email&#160;protected]</span></a>
+                                    </li>
+                                    <li>
+                                        <br><i class="fa fa-clock-o"></i>Monday - Friday: <strong>08:00 - 22:00</strong>
+<br>Saturday, Sunday: <strong>Closed</strong>                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-5 col-md-4 col-md-offset-1">
+                            <div class="row">
+                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                    <div class="footer-box">
+                                        <h3 class="footer-title">Our Company</h3>
+                                        <ul class="footer-list">
+                                                            <li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/about">About</a></li>
+                                                            <li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/coinmarket">Coinmarket</a></li>
+                                                            <li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/faq">F.A.Q</a></li>
+                                                            <li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/service">Service</a></li>
+                                                            <li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/contact">Contact</a></li>
+                                                                </ul>
+                                    </div>
+                                </div>
+                                <div class="col-xs-6 col-sm-6 col-md-6">
+                                    <div class="footer-box">
+                                        <h3 class="footer-title">Services</h3>
+                                        <ul class="footer-list">
+                                            
+                                                    <li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/service/data-protection">Data Protection</a></li>
+                                            
+                                                    <li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/service/security-protected">Security Protected</a></li>
+                                            
+                                                    <li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/service/support-247">Support 24/7</a></li>
+                                            
+                                                    <li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/service/payment-methods">Payment Methods</a></li>
+                                            
+                                                    <li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/service/registered-company">Registered Company</a></li>
+                                            
+                                                    <li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/service/secured-company">Secured Company</a></li>
+                                            
+                                                    <li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/service/live-exchange-rates">Live Exchange Rates</a></li>
+                                            
+                                                    <li><a href="http://phpcryptomarket.bdtask.com/demo-v1.6/service/cryptocurrency-investments">Cryptocurrency Investments</a></li>
+                                                                                    </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 col-md-3">
+                            <div class="newsletter-box">
+                                <h3 class="footer-title">Email Newslatter</h3>
+                                <p>Subscribe to our newsletter!</p>
+                                <form action="http://phpcryptomarket.bdtask.com/demo-v1.6/#" id="subscribeForm"  class="newsletter-form" name="subscribeForm"  method="post" accept-charset="utf-8">
+                                                                                    <input type="hidden" name="csrf_test_name" value="5e2afe77814e90ae82ddc9e972c90b86" />
+                                <form class='newsletter-form' action='#' method='post'>
+                                    <input name="subscribe_email" placeholder="Email Address" type="email">
+                                    <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                                    <div class="envelope">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                    </div>
+                                </form>                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.End of main footer -->
+            <div class="sub_footer">
+                <div class="container">
+                    <div class="logos-wrapper">
+                        <div class="logos-row">
+                            <div class="social-content">
+                                <div class="social-row">
+                                    <div class="social_icon">
+                                                                                <a href="https://www.facebook.com/" class=""><i class="fa fa-facebook"></i></a>
+                                                                                <a href="https://twitter.com/" class=""><i class="fa fa-twitter"></i></a>
+                                                                                <a href="https://google-plus.com/" class=""><i class="fa fa-google-plus"></i></a>
+                                                                                <a href="https://www.youtube.com/" class=""><i class="fa fa-youtube-play"></i></a>
+                                                                                <a href="https://instagram.com/" class=""><i class="fa fa-instagram"></i></a>
+                                                                            </div>
+                                    <div class="f-language">
+                                        <select class="selectpicker lang-change" id="lang-changeF" data-width="fit">
+                                            <option value="english" data-content='<span class="flag-icon flag-icon-us"></span> English' Selected>English</option>
+                                            <option value="french"  data-content='<span class="flag-icon flag-icon-fr"></span> Français' > Français</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="copyright">
+                            <span>2018 © Copyright bdtask Treading System</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /.End of sub footer -->
+        </footer>
+        <!-- /.End of footer -->
+
+<!-- Home nad Coin Market Page Script -->
+        <style type="text/css">
+            /*#crypto  table tbody tr td > .up {
+                color: green;
+            }
+
+            #crypto  table tbody tr td > .down {
+                color: red;
+            }*/
+            #crypto  table tbody tr.upbg {
+                background-color: rgba(255, 78,34,.2);
+            }
+
+            #crypto  table tbody tr.downbg {
+                background-color: rgba(37,37,142,0.2);
+            }
+
+            #crypto  table tbody tr td > .exchange {
+                color: #42f492;
+            }
+        </style>
+        <script data-cfasync="false" src="http://phpcryptomarket.bdtask.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.2/socket.io.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/streamer/ccc-streamer-utilities.js"></script>
+        <script type="text/javascript">
+
+        $(document).ready(function() {
+
+            var currentPrice = {};
+            var socket = io.connect('https://streamer.cryptocompare.com/');
+            //Format: {SubscriptionId}~{ExchangeName}~{FromSymbol}~{ToSymbol}
+            //Use SubscriptionId 0 for TRADE, 2 for CURRENT and 5 for CURRENTAGG
+            //For aggregate quote updates use CCCAGG as market
+
+                        var subscription = ['5~CCCAGG~CLV~USD','5~CCCAGG~FCT~USD','5~CCCAGG~LYB~USD','5~CCCAGG~BST~USD','5~CCCAGG~PXI~USD','5~CCCAGG~CPC~USD','5~CCCAGG~AMS~USD','5~CCCAGG~OBITS~USD','5~CCCAGG~CLUB~USD','5~CCCAGG~RADS~USD','5~CCCAGG~EMC~USD','5~CCCAGG~BLITZ~USD','5~CCCAGG~HIRE*~USD','5~CCCAGG~EGC~USD','5~CCCAGG~MND~USD'];
+            socket.emit('SubAdd', { subs: subscription });
+            socket.on("m", function(message) {
+                var messageType = message.substring(0, message.indexOf("~"));
+                var res = {};
+                if (messageType == CCC.STATIC.TYPE.CURRENTAGG) {
+                    res = CCC.CURRENT.unpack(message);
+                    dataUnpack(res);
+                }
+            });
+
+            var dataUnpack = function(data) {
+                var from = data['FROMSYMBOL'];
+                var to = data['TOSYMBOL'];
+                var fsym = CCC.STATIC.CURRENCY.getSymbol(from);
+                var tsym = CCC.STATIC.CURRENCY.getSymbol(to);
+                var pair = from + to;
+
+                if (!currentPrice.hasOwnProperty(pair)) {
+                    currentPrice[pair] = {};
+                }
+
+                for (var key in data) {
+                    currentPrice[pair][key] = data[key];
+                }
+
+                if (currentPrice[pair]['LASTTRADEID']) {
+                    currentPrice[pair]['LASTTRADEID'] = parseInt(currentPrice[pair]['LASTTRADEID']).toFixed(0);
+                }
+                currentPrice[pair]['CHANGE24HOUR'] = CCC.convertValueToDisplay(tsym, (currentPrice[pair]['PRICE'] - currentPrice[pair]['OPEN24HOUR']));
+                currentPrice[pair]['CHANGE24HOURPCT'] = ((currentPrice[pair]['PRICE'] - currentPrice[pair]['OPEN24HOUR']) / currentPrice[pair]['OPEN24HOUR'] * 100).toFixed(2) + "%";;
+                displayData(currentPrice[pair], from, tsym, fsym);
+            };
+
+            var displayData = function(current, from, tsym, fsym) {
+                var priceDirection = current.FLAGS;
+                for (var key in current) {
+                    if (key == 'CHANGE24HOURPCT') {
+                        $('#' + key + '_' + from).text(' (' + current[key] + ')');
+                    }
+                    else if (key == 'LASTVOLUMETO' || key == 'VOLUME24HOURTO') {
+                        $('#' + key + '_' + from).text(CCC.convertValueToDisplay(tsym, current[key]));
+                    }
+                    else if (key == 'LASTVOLUME' || key == 'VOLUME24HOUR' || key == 'OPEN24HOUR' || key == 'OPENHOUR' || key == 'HIGH24HOUR' || key == 'HIGHHOUR' || key == 'LOWHOUR' || key == 'LOW24HOUR') {
+                        $('#' + key + '_' + from).text(CCC.convertValueToDisplay(fsym, current[key]));
+                    }
+                    else {
+                        $('#' + key + '_' + from).text(current[key]);
+                    }
+                }
+
+                $('#PRICE_' + from).removeClass();
+                $('#BGCOLOR_' + from).removeClass();
+                if (priceDirection & 1) {
+                    $('#PRICE_' + from).addClass("up");
+                    $('#BGCOLOR_' + from).addClass("upbg");
+                }
+                else if (priceDirection & 2) {
+                    $('#PRICE_' + from).addClass("down");
+                    $('#BGCOLOR_' + from).addClass("downbg");
+                }
+                if (current['PRICE'] > current['OPEN24HOUR']) {
+                    $('#CHANGE24HOURPCT_' + from).removeClass();
+                    $('#CHANGE24HOURPCT_' + from).addClass("up");
+                }
+                else if (current['PRICE'] < current['OPEN24HOUR']) {
+                    $('#CHANGE24HOURPCT_' + from).removeClass();
+                    $('#CHANGE24HOURPCT_' + from).addClass("down");
+                }
+            };
+        });
+
+        </script>
+
+        <!-- Sparkline Ajax -->
+        <script type="text/javascript">
+            $(function(){
+                window.setTimeout(function(){
+                    $( ".value_graph").text("Loading...");
+                    $.ajax({
+                            url: "http://phpcryptomarket.bdtask.com/demo-v1.6/home/coingraphdata/465",
+                            type: "GET",
+                            dataType : "json",
+                            success: function(result,status,xhr) {
+
+                                var keys = Object.keys(result);
+                                for(var i=0;i<keys.length;i++){
+                                    var key = keys[i];
+                                    $( "#GRAPH_"+key).text(result[key]);
+                                    $('#GRAPH_'+key).sparkline('html', {type:'line', height:'40px', lineWidth:1, lineColor:'#35a947', fillColor:false, spotColor:'red'} );
+                                }
+
+                            },
+                            error: function(xhr,status,error){
+                                console.log("No Grap Found!!!");
+
+                            }
+                        });
+                }, 500);
+            });
+
+        </script>
+        <!-- jQuery -->
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/jquery.min.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/js/sparkline.min.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/bootstrap.min.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/bootsnav.min.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/owl.carousel.min.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/wow.min.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/parallax-background.min.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/jquery.dataTables.min.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/dataTables.bootstrap.min.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/dataTables.responsive.min.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/responsive.bootstrap.min.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/jquery.marquee.min.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/particles.min.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/jquery.magnific-popup.min.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/bootstrap-select.min.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/app.js"></script>
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/classie.min.js"></script>
+
+        <script src="http://phpcryptomarket.bdtask.com/demo-v1.6/assets/website/js/custom.js"></script>
+
+        <!-- Calculator -->        
+        <script type="text/javascript">
+            $(function(){
+
+                var cryptolistfrom;
+                var cryptolistto;
+                var amountfrom;
+                var amountto;
+
+                $("#convertfromcryptolist").on("change", function(event) {
+                    event.preventDefault();
+                    $( "#convertfromcrypto").val(1);
+                    cryptolistfrom = $("#convertfromcryptolist").val(); 
+                    cryptolistto = $("#converttocryptolist").val(); 
+
+                    $.ajax({
+                        url: "https://min-api.cryptocompare.com/data/price?fsym="+cryptolistfrom+"&tsyms="+cryptolistto,
+                        type: "post",
+                        dataType : "json",
+                        success: function(result,status,xhr) {
+                            $( "#converttocrypto").val(result[Object.keys(result)[0]]);
+                        },
+                        error: function(xhr,status,error){
+                            alert("No Conversion Found!!!");
+                        }
+                    });
+                });
+
+                $("#converttocryptolist").on("change", function(event) {
+                    event.preventDefault();
+                    $( "#converttocrypto").val(1);
+                    cryptolistfrom = $("#convertfromcryptolist").val(); 
+                    cryptolistto = $("#converttocryptolist").val();
+
+                    $.ajax({
+                        url: "https://min-api.cryptocompare.com/data/price?fsym="+cryptolistfrom+"&tsyms="+cryptolistto,
+                        type: "post",
+                        dataType : "json",
+                        success: function(result,status,xhr) {
+                            $( "#convertfromcrypto").val(result[Object.keys(result)[0]]);
+                        },
+                        error: function(xhr,status,error){
+                            alert("No Conversion Found!!!");
+                        }
+                    });
+                });
+
+                $("#convertfromcrypto").on("keyup", function(event) {
+                    event.preventDefault();
+                    cryptolistfrom = $("#convertfromcryptolist").val();
+                    cryptolistto = $("#converttocryptolist").val();
+                    amountfrom = parseFloat($("#convertfromcrypto").val())|| 1;
+
+                    $.ajax({
+                        url: "https://min-api.cryptocompare.com/data/price?fsym="+cryptolistfrom+"&tsyms="+cryptolistto,
+                        type: "post",
+                        dataType : "json",
+                        success: function(result,status,xhr) {
+                            $( "#converttocrypto").val(result[Object.keys(result)[0]]*amountfrom);
+                        },
+                        error: function(xhr,status,error){
+                            alert("No Conversion Found!!!");
+                        }
+                    });
+                });
+
+                $("#converttocrypto").on("keyup", function(event) {
+                    event.preventDefault();
+                    cryptolistfrom = $("#convertfromcryptolist").val();
+                    cryptolistto = $("#converttocryptolist").val();
+                    amountto = parseFloat($("#converttocrypto").val())|| 1;
+
+                    $.ajax({
+                        url: "https://min-api.cryptocompare.com/data/price?fsym="+cryptolistto+"&tsyms="+cryptolistfrom,
+                        type: "post",
+                        dataType : "json",
+                        success: function(result,status,xhr) {
+                            $("#convertfromcrypto").val(result[Object.keys(result)[0]]*amountto);
+                        },
+                        error: function(xhr,status,error){
+                            alert("No Conversion Found!!!");
+                        }
+                    });
+                });               
+
+            });
+        </script>
+        
+        <script>
+            $(function () {
+                $('.selectpicker').selectpicker();
+            });
+        </script>
+        
+        <!-- Ajax Language Change -->
+        <script type="text/javascript">
+            $(function(){
+                $(".lang-change").on("change", function(event) {
+                    event.preventDefault();
+
+                    var langh = $("#lang-changeH").val();
+                    var langf = $("#lang-changeF").val();
+
+                    var lang = langf;
+                    var token   = "5e2afe77814e90ae82ddc9e972c90b86";
+                    var inputdata = "lang="+lang+"&csrf_test_name="+token;
+                    $.ajax({
+                        url: "http://phpcryptomarket.bdtask.com/demo-v1.6/home/langChange",
+                        type: "post",
+                        data: inputdata,
+                        success: function(result,status,xhr) {
+                            location.reload();
+                        },
+                        error: function(xhr,status,error){
+                            location.reload();
+                        }
+                    });
+                });
+            });
+        </script>
+        <!-- Ajax Subscription -->
+        <script type="text/javascript">
+            function isValidEmailAddress(emailAddress) {
+                var pattern = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                return pattern.test(emailAddress);
+            }
+
+            $(function(){
+                $("#subscribeForm").on("submit", function(event) {
+                    event.preventDefault();
+                    var inputdata = $("#subscribeForm").serialize();
+                    var email = $('input[name=subscribe_email]').val();
+
+                    if (email == "") {
+                        alert("Please Input Your Email !!!");
+                        return false;
+                    }
+                    if (!isValidEmailAddress(email)) {
+                        alert("Please Enter Valid Email !!!");
+                        return false;
+                    }
+
+                    $.ajax({
+                        url: "http://phpcryptomarket.bdtask.com/demo-v1.6/home/subscribe",
+                        type: "post",
+                        data: inputdata,
+                        success: function(result,status,xhr) {
+                            alert("Subscribtion complete");
+                            location.reload();
+                        },
+                        error: function (xhr,status,error) {
+                            if (xhr.status===500) {
+                                alert("This Email Address already subscribed");
+                            }
+                        }
+                    });
+                });
+            }); 
+        </script>
+        
+
+
+
+    </body>
+
+<!-- Mirrored from phpcryptomarket.bdtask.com/demo-v1.6/coinmarket/465 by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Oct 2018 02:32:44 GMT -->
+</html>

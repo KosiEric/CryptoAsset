@@ -1,0 +1,48 @@
+p.hhdjjd{
+    color : green;
+}
+
+#availableable-assets-span-container{
+    font-size: 22px;
+}
+#sold-assets-container{
+    display: block;
+    position : relative;
+    top : 20px;
+}
+  span.available-assets , #header-num-sold{
+    font-size: 35px;
+}
+
+
+@media only screen and (min-width:600px)
+{
+    span.available-assets , #header-num-sold{
+    font-size: 45px;
+}
+
+}
+
+.currency-strength-warning-down {
+    color : lightyellow;
+}
+
+
+.currency-warning-arrow-up {
+    color : green;
+}
+.currency-warning-arrow-down{
+    color : tomato;
+}
+
+.currency-arrow{
+
+    position : relative;
+    left : 7px;
+}
+.yellow-text {
+    color : lightyellow;
+}
+span:not(.lnr) , h1 , h2 , h3 , h4 , h5 , h6 , div , p , a , li{
+    font-family: Cairo !important;
+}
